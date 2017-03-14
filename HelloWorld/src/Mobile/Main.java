@@ -19,7 +19,6 @@ public class Main {
                     PrintInstructions();
                     break;
                 case 1:
-
                     PrintContacts();
                     break;
                 case 2:
@@ -85,12 +84,8 @@ public class Main {
         System.out.println("Please write the Name of the Contact you want to search");
         search = scanner.next();
 
-
         myMobile.SearchContact(search);
     }
-
-
-
 
     public static void PrintInstructions(){
         System.out.println("\n Press ");
