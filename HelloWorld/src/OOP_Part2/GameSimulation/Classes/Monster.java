@@ -10,10 +10,10 @@ public class Monster implements IMonster,IPosition,IIdentificator {
     private int hitPoints;
     private LEVEL powerClass = LEVEL.undefined;
     private boolean isAlive =true;
-    private double position=0;
+    private Coordinate position;
     private String ID;
 
-    public Monster(String name, int hitPoints, LEVEL powerClass, double posit) {
+    public Monster(String name, int hitPoints, LEVEL powerClass, Coordinate posit) {
         setID();
         setName(name);
         setAlive(true);
@@ -50,10 +50,10 @@ public class Monster implements IMonster,IPosition,IIdentificator {
         return name;
     }
 
-    public void setPosition(double poos) {
-        position = poos;
+    public void setPosition(Coordinate poos) {
+        position=new Coordinate(poos.getX(),poos.getY());
     }
-    public double getPosition() {
+    public Coordinate getPosition() {
         return position;
     }
 

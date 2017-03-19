@@ -10,6 +10,7 @@ public interface IGame extends ISave, ILoad {
     boolean HitPlayer(int hitAmount);
     boolean HealPlayer(int healAmount);
     boolean GameOver();
+    double GetPercentagePassed();
 
     String getName();
 }

@@ -27,11 +27,11 @@ public class Game implements IGame {
 
     @Override
     public void CreateMonsters() {
-        Monster monster1 = new Monster("Taran",10, LEVEL.POOR,0);
-        Monster monster2 = new Monster("Guard",50, LEVEL.LOW,1);
-        Monster monster3 = new Monster("Paladin",100, LEVEL.HIGH,2);
-        Monster monster4 = new Monster("Booss",550, LEVEL.BOSS,3);
-        Monster monster5 = new Monster("BigBoss",1000, LEVEL.ULTIMATE,4);
+        Monster monster1 = new Monster("Taran",10, LEVEL.POOR,new Coordinate(2,2));
+        Monster monster2 = new Monster("Guard",50, LEVEL.LOW,new Coordinate(2,24));
+        Monster monster3 = new Monster("Paladin",100, LEVEL.HIGH,new Coordinate(2,3));
+        Monster monster4 = new Monster("Booss",550, LEVEL.BOSS,new Coordinate(2,5));
+        Monster monster5 = new Monster("BigBoss",1000, LEVEL.ULTIMATE,new Coordinate(2,5));
         listMonsters= new ArrayList<>();
         listSaves= new ArrayList<>();
         listMonsters.add(monster1);
@@ -69,6 +69,11 @@ public class Game implements IGame {
     @Override
     public boolean GameOver() {
         return false;
+    }
+
+    @Override
+    public double GetPercentagePassed() {
+        return 0;
     }
 
     @Override
