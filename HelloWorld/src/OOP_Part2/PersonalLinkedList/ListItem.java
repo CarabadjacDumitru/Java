@@ -1,30 +1,45 @@
 package OOP_Part2.PersonalLinkedList;
 
-import java.util.Objects;
+
+public class ListItem {
+
+    private ListItem leftItem = null;
+    private ListItem rightItem = null;
+    private int value;
 
 
-public abstract class ListItem {
-    protected ListItem nextItem;
-    protected ListItem prevItem;
-    protected Object value;
-
-    public ListItem(Objects item) {
+    public ListItem(int item) {
         this.value = item;
     }
 
-    public void setValue(Object value) {
+    public void setValue(int value) {
         this.value = value;
     }
 
-    public Object getValue() {
-        return value;
+    public void DisplayValue() {
+        System.out.println(value);
     }
 
-    abstract ListItem setNext(ListItem item);
+    public int compareTo(int toCompare) {
+        return Integer.compare(this.value, toCompare);
+    }
 
-    abstract ListItem setPrev(ListItem item);
 
-    abstract ListItem Next();
+    public ListItem setRight(ListItem item) {
+        this.rightItem = item;
+        return this.rightItem;
+    }
 
-    abstract ListItem Prev();
+    public ListItem setLeft(ListItem item) {
+        this.leftItem = item;
+        return this.leftItem;
+    }
+
+    public ListItem Right() {
+        return this.rightItem;
+    }
+
+    public ListItem Left() {
+        return this.leftItem;
+    }
 }
