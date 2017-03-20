@@ -1,7 +1,5 @@
 package OOP_Part2.PersonalLinkedList;
 
-import OOP_Part2.PersonalLinkedList.ListItem;
-import OOP_Part2.PersonalLinkedList.MyLinkedList;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,7 +16,7 @@ public class Main {
         newList.addItem(new ListItem(9));
         newList.addItem(new ListItem(10));
 
-        newList.PrintList();
+        newList.PrintList(newList.getRoot());
     }
 
 }

@@ -1,33 +1,38 @@
 package OOP_Part2.PersonalLinkedList;
 
 
+
 public class MyLinkedList {
     private ListItem root = null;
     private int size = 0;
 
+    public ListItem getRoot(){
+        return root;
+    }
+
     public MyLinkedList(ListItem newItem) {
-        this.root = newItem;
+        root = newItem;
     }
 
 
     public void addItem(ListItem newItem) {
-        if (this.root == null) {
-            this.root = newItem;
+        if (root == null) {
+            root = newItem;
         }
 
         if (this.root.Right() == null) {
-            newItem.setLeft(this.root);
+            newItem.setLeft(root);
             //newItem.setRight(null);
-            this.root.setRight(newItem);
+            root.setRight(newItem);
         }
         if (this.root.Left() == null) {
             //newItem.setLeft(null);
-            newItem.setRight(this.root);
-            this.root.setLeft(newItem);
+            newItem.setRight(root);
+            root.setLeft(newItem);
         } else {
-            ListItem rightItemm = this.root.Right();
-            this.root.setRight(newItem);
-            newItem.setLeft(this.root);
+            ListItem rightItemm = root.Right();
+            root.setRight(newItem);
+            newItem.setLeft(root);
             rightItemm.setLeft(newItem);
             newItem.setRight(rightItemm);
         }
@@ -35,26 +40,26 @@ public class MyLinkedList {
     }
 
     public boolean removeItem(ListItem remItem) {
-        if (this.root == null) {
+        if (root == null) {
             return false;
         }
 
-        if (this.root.Right() == null) {
-            this.root= this.root.Left();
+        if (root.Right() == null) {
+            root= root.Left();
         }
-        if (this.root.Left() == null) {
-            this.root = this.root.Right();
+        if (root.Left() == null) {
+            root = root.Right();
         } else {
-            this.root.Right().setLeft(this.root.Left());
-            this.root.Left().setRight(this.root.Right());
+            root.Right().setLeft(root.Left());
+            root.Left().setRight(root.Right());
         }
         size--;
         return true;
     }
 
 
-    public void PrintList() {
-        ListItem current = this.root;
+    public void PrintList(ListItem printRoot) {
+        ListItem current = printRoot;
         while (current != null) {
             current.DisplayValue();
             current = current.Right();

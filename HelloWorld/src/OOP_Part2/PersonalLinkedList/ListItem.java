@@ -26,20 +26,20 @@ public class ListItem {
 
 
     public ListItem setRight(ListItem item) {
-        this.rightItem = item;
-        return this.rightItem;
+        rightItem = item;
+        return rightItem;
     }
 
     public ListItem setLeft(ListItem item) {
-        this.leftItem = item;
-        return this.leftItem;
+        leftItem = item;
+        return leftItem;
     }
 
     public ListItem Right() {
-        return this.rightItem;
+        return rightItem;
     }
 
     public ListItem Left() {
-        return this.leftItem;
+        return leftItem;
     }
 }
