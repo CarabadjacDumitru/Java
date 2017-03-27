@@ -28,7 +28,7 @@ public class Theatre {
         return Name;
     }
     public boolean reserveSeat(String seatNumber){
-        Seat reqSeat = null;
+       /* Seat reqSeat = null;
         for(Seat seat : listSeats){
             if (seat.getSeatNumber().equals(seatNumber)){
                 reqSeat = seat;
@@ -40,7 +40,8 @@ public class Theatre {
             System.out.println("Seat not found");
 
             return  reqSeat.reserve();
-        }
+        }*/
+       return true;
     }
 
 

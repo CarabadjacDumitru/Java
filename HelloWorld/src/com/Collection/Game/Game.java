@@ -14,7 +14,7 @@ public class Game {
     }
 
     private void setListExists() {
-        locations.get(1).addExit()
+       // locations.get(1).addExit();
     }
 
     private void setLocations() {
