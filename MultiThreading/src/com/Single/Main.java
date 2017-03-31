@@ -17,12 +17,12 @@ public class Main {
         Thread myRunnableThread = new Thread(new MyRunnable(){
             @Override
             public void run() {
-                System.out.println(com.ProducerConsumer.ThreadColor.ThreadColor.ANSI_RED + "Hello from My Runnable implementation");
+                System.out.println(com.ProducerConsumer.ThreadColor.ANSI_RED + "Hello from My Runnable implementation");
                 try {
                     anotherThread.join(2000);
-                    System.out.println(com.ProducerConsumer.ThreadColor.ThreadColor.ANSI_RED+ "Another Thread   TERMINATED or TimeOUT so i a  running again");
+                    System.out.println(com.ProducerConsumer.ThreadColor.ANSI_RED+ "Another Thread   TERMINATED or TimeOUT so i a  running again");
                 }catch (InterruptedException e){
-                    System.out.println(ThreadColor.ThreadColor.ANSI_RED + "I could wait . I was interrupted");
+                    System.out.println(ThreadColor.ANSI_RED + "I could wait . I was interrupted");
                 }
             }
         });
