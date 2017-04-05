@@ -8,7 +8,7 @@ public class MyConsumer implements  Runnable {
     private String color;
     private ReentrantLock bufferLock;
 
-    public MyConsumer(List<String> buffer, String color,ReentrantLock bufferLock) {
+    public MyConsumer(List<String> buffer, String color, ReentrantLock bufferLock) {
         this.buffer = buffer;
         this.color = color;
         this.bufferLock = bufferLock;
@@ -16,22 +16,23 @@ public class MyConsumer implements  Runnable {
 
 
     public void run() {
-        bufferLock.lock();
-        while(true){
-            synchronized (buffer) {
 
-                if (buffer.isEmpty()) {
-                    continue;
+        while (true) {
+            if (bufferLock.tryLock()) {
+                try {
+                    if (buffer.isEmpty()) {
+                        continue;
+                    }
+                    if (buffer.get(0).equals("EOF")) {
+                        System.out.println(color + "Exiting");
+                        break;
+                    } else {
+                        System.out.println(color + "Removed" + buffer.remove(0));
+                    }
+                } finally {
+                    bufferLock.unlock();
                 }
-                if (buffer.get(0).equals("EOF")) {
-                    System.out.println(color + "Exiting");
-                    break;
-                } else {
-                    System.out.println(color + "Removed" + buffer.remove(0));
-                }
-
             }
         }
-        bufferLock.unlock();
     }
 }
