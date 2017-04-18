@@ -23,9 +23,7 @@ public class Toolbar extends JPanel implements ActionListener {
 
     }
 
-    public void setStringListener(StringListener stringListener1) {
-        this.stringListener = stringListener1;
-    }
+
 
     @Override
     public void actionPerformed(ActionEvent e) {
