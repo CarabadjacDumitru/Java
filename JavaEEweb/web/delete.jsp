@@ -12,7 +12,7 @@
        <div style = "font-weight:bold;font-size:101%;">
          <c:out value="Are you sure you want to delete user with Id ${param.id}?"/>
        </div>
-       <p><a href="${pageContext.request.contextPath}/WEB-INF/skiStuffCRUD.jsp">Cancel</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+       <p><a href="${pageContext.request.contextPath}/skiStuffCRUD.jsp">Cancel</a>&nbsp;&nbsp;|&nbsp;&nbsp;
           <a href="${pageContext.request.contextPath}/deleteForSure.jsp?id=${param.id}">Delete the product</a></p>
    </fieldset>
 </body>

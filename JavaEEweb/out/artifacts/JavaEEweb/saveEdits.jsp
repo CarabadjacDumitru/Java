@@ -13,13 +13,13 @@
     <sql:setDataSource
       var = "myDS"
       driver = "org.postgresql.Driver"
-      url = "jdbc:postgresql://localhost:5432/skistuff"
-      user = "fred" 
-      password = "secret"
+      url = "jdbc:postgresql://localhost:5353/skistuff"
+      user = "OPEN_U"
+      password = "POU"
     />
     
     <sql:update dataSource = "${myDS}" var = "result">
-      UPDATE skisEtc SET product = ?, 
+      UPDATE "skisEtc" SET product = ?,
                          category = ?, 
                          price = <%= Float.parseFloat(request.getParameter("price").trim()) %>
                          where id = ${param.id};
@@ -30,7 +30,7 @@
     <c:if test = "${result >= 1}">
       <div class = "goodSave">
 	<center>Edited product saved</center>
-	<center><a href = "${pageContext.request.contextPath}/skiStuffCRUD.jsp">Back</a></center>
+	<center><a href = "${pageContext.request.contextPath}/skiStuffCRUD.jsp">Back</a></center>                
       </div>
     </c:if>
   </body>

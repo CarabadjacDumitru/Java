@@ -11,12 +11,12 @@
     <sql:setDataSource
         var = "myDS"
         driver = "org.postgresql.Driver"
-        url = "jdbc:postgresql://localhost:5432/skistuff"
-        user = "fred" 
-        password = "secret"
+        url = "jdbc:postgresql://localhost:5353/skistuff"
+        user = "OPEN_U"
+        password = "POU"
     />
     <sql:query var = "listStuff" dataSource = "${myDS}">
-        SELECT * FROM skisEtc where id = ${param.id}; 
+        SELECT * FROM "skisEtc" where id = ${param.id};
     </sql:query>
 
     <div>
@@ -25,23 +25,13 @@
               <table>
                  <tbody>
                    <tr style = "background: white;}">
-                     <td><label for = "id">Id:</label></td><td><input id = "id" name = "id"
-								       style = "font-size:16px;"
-                                                                       value = '${param.id}'
-                                                                       type = "text" 
-                                                                       readonly/></td>
+                     <td><label for = "id">Id:</label></td><td><input id = "id" name = "id"  style = "font-size:16px;" value = '${param.id}' type = "text" readonly/></td>
                    </tr>
                    <tr style="background: white;}">
-                     <td><label for = "product">Product:</label></td><td><input id = "product" name = "product"
-								                style = "font-size:16px;"
-										value = "${listStuff.rows[0].product}"
-                                                                                type = "text"/></td>
+                     <td><label for = "product">Product:</label></td><td><input id = "product" name = "product" style = "font-size:16px;" value = "${listStuff.rows[0].product}" type = "text"/></td>
                    </tr>
                    <tr style="background: white;}">
-                     <td><label for = "category">Category:</label></td><td><input id = "category" name = "category"
-										  style = "font-size:16px;"
-                                                                                  value = "${listStuff.rows[0].category}"
-                                                                                  type = "text"/></td>
+                     <td><label for = "category">Category:</label></td><td><input id = "category" name = "category" style = "font-size:16px;" value = "${listStuff.rows[0].category}" type = "text"/></td>
                    </tr>
 		   <tr style = "background: white;}">
                      <td><label for = "price">Price:</label></td><td><input id = "price" name = "price"
@@ -52,7 +42,7 @@
                  </tbody>
               </table>
               <p><input type = "submit" value = " Save edits "/></p>
-              <p><a href="${pageContext.request.contextPath}/WEB-INF/skiStuffCRUD.jsp">Back</a></p>
+              <p><a href="${pageContext.request.contextPath}/skiStuffCRUD.jsp">Back</a></p>
            </form>
         </fieldset>
     </div>

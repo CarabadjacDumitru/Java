@@ -11,13 +11,13 @@
     <sql:setDataSource
         var = "myDS"
         driver = "org.postgresql.Driver"
-        url = "jdbc:postgresql://localhost:5432/skistuff"
-        user = "fred" 
-        password = "secret"
+        url = "jdbc:postgresql://localhost:5353/skistuff"
+        user = "OPEN_U"
+        password = "POU"
     />
 
     <sql:query var = "listStuff" dataSource = "${myDS}">
-	SELECT * FROM skisEtc where id = ${param.id};
+	SELECT * FROM "skisEtc" where id = ${param.id};
     </sql:query>
 
     <div>
@@ -25,39 +25,29 @@
           <table>
             <tbody>
               <tr style = "background: white;}">
-                <td><label for = "id">Id:</label></td><td><input id = "id" name = "id"
-                                                                  style = "border:none;font-size:16px;"
-                                                                  value = "${param.id}"
-                                                                  type = "text" 
-                                                                  readonly/></td>
-              </tr>
-              <tr style="background: white;}">
-                <td><label for = "product">Product:</label></td><td><input id = "product" name = "product"
-                                                                           style = "border:none;font-size:16px;"
-                                                                           value = "${listStuff.rows[0].product}"
-                                                                           type = "text" 
-                                                                           readonly/></td>
-              </tr>
-              <tr style="background: white;}">
-                <td><label for = "category">Category:</label></td><td><input id = "category" name = "category"
-                                                                             style = "border:none;font-size:16px;"
-                                                                             value = "${listStuff.rows[0].category}"
-                                                                             type = "text" 
-                                                                             readonly/></td>
+                <td><label for = "id">Id:</label></td>
+                <td><input id = "id" name = "id" style = "border:none;font-size:16px;" value = "${param.id}" type = "text" readonly/></td>
               </tr>
 
               <tr style="background: white;}">
-                <td><label for = "price">Price:</label></td><td><input id = "price" name = "price"
-                                                                       style = "border:none;font-size:16px;"
-                                                                       value = "${listStuff.rows[0].price}"
-                                                                       type = "number" 
-                                                                       readonly/></td>
+                <td><label for = "product">Product:</label></td>
+                <td><input id = "product" name = "product" style = "border:none;font-size:16px;" value = "${listStuff.rows[0].product}" type = "text" readonly/></td>
+              </tr>
+
+              <tr style="background: white;}">
+                <td><label for = "category">Category:</label></td>
+                <td><input id = "category" name = "category" style = "border:none;font-size:16px;" value = "${listStuff.rows[0].category}" type = "text"  readonly/></td>
+              </tr>
+
+              <tr style="background: white;}">
+                <td><label for = "price">Price:</label></td>
+                <td><input id = "price" name = "price" style = "border:none;font-size:16px;" value = "${listStuff.rows[0].price}" type = "number" readonly/></td>
               </tr>
             </tbody>
           </table>
         </fieldset>
     </div>
-   <p><a href="${pageContext.request.contextPath}/WEB-INF/skiStuffCRUD.jsp">Back</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+   <p><a href="${pageContext.request.contextPath}/skiStuffCRUD.jsp">Back</a>&nbsp;&nbsp;|&nbsp;&nbsp;
        <a href="${pageContext.request.contextPath}/edit.jsp?id=${param.id}">Edit</a></p>
 </body>
 </html>

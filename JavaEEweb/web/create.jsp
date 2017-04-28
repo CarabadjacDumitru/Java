@@ -5,9 +5,11 @@
 <html>
 <head>
 <title>Create new product</title>
+    <h3 >Create new product</h3>
 <link rel = "stylesheet" href = "style.css" type = "text/css"></link>
 </head>
 <body>
+    <h3 class="class1">Create new product</h3>
     <div>
         <fieldset><legend class="legend">Create product</legend>
            <form action = "${pageContext.request.contextPath}/save.jsp" method = "post">
@@ -16,7 +18,7 @@
                    <tr style = "background: white;}">
                      <td><label for = "product">Product:</label></td><td>
 		       <input id = "product" name = "product"
-			      style = "font-size:16px;"
+			      style = "font-size:32px;color: #990000"
 			      type = "text"/></td>
                    </tr>
                    <tr style = "background: white;}">
@@ -35,7 +37,7 @@
               </table>
               <p><input type="submit" value=" Create product "/></p>
            </form>
-           <p><a href = "${pageContext.request.contextPath}/skiStuffCRUD.jsp">Back</a></p>
+           <p><a href = "${pageContext.request.contextPath}/skiStuffCRUD.jsp">Back</a></p>        
         </fieldset>
     </div>
 </body>
