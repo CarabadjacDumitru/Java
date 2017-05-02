@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Introductory example</title>
+    <style type = "text/css">
+      .legend {color: #990000;}
+      input {color: darkblue; font-weight: bold;}
+      fieldset {width: 400px;}
+    </style>
+  </head>
+  <body>
+    <fieldset>
+        <form action = 'convert.jsp' method = 'post'>
+          Fahrenheit temperature: <input type = 'number' step = '0.01' name = 'tempIn' id = 'tempIn' required>
+        </form>
+        <p>
+	        <input type = 'submit' style = 'font-weigth: bold;' value = 'Convert to centrigrade'/>
+	    </p>
+    </fieldset>
+  </body>
+</html>
