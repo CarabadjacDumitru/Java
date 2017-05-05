@@ -1,0 +1,112 @@
+
+.div.div1 {
+    background-color: black;
+    color: white;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+}
+
+
+tr:nth-child(even) {
+    background: #ccc
+}
+
+tr:nth-child(odd) {
+    background: #fff
+}
+
+table.products td.rght {
+    text-align: right;
+}
+
+table.products td.cent {
+    text-align: center;
+}
+
+table.products th {
+    color: green;
+}
+
+div {
+    color: green;
+    font-size: 20px;
+    line-height: 25px;
+}
+div.p {
+    color: yellow;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+p{
+    color: yellow;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+div.badResult {
+
+    color: red;
+}
+
+div.result {
+    color: red;
+}
+
+div.goodResult {
+    color: red;
+}
+
+
+input[type="submit"] {
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 101%;
+}
+
+.goodSave {
+    color: green;
+    font-size: 1220%;
+    font-weight: bold;
+}
+
+.legend {
+    color: yellow;
+}
+
+fieldset {
+    width: 400px;
+    font-size: 18px;
+}
+
+h3 {
+    align: center;
+    display: block;
+    font-size: 1.7em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color: yellow;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-size: 106%;
+    font-weight: bold;
+    display: inline;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:hover {
+    color: #fff;
+    background-color: #666;
+}
+
+

@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+
+<web-app>
+    <servlet>
+        <servlet-name>eFinder</servlet-name>
+        <servlet-class>EmpFinder</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>dVerifier</servlet-name>
+        <servlet-class>DataVerifierT</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>eFinder</servlet-name>
+        <url-pattern>/findEmpS</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>dVerifier</servlet-name>
+	<url-pattern>/verifyAndSave</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+      <welcome-file>findEmp.html</welcome-file>
+    </welcome-file-list>
+</web-app>     
