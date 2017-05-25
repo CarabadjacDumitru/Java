@@ -1,0 +1,46 @@
+CREATE TABLE "public"."emps" (
+"id" int4 DEFAULT nextval('emps_id_seq'::regclass) NOT NULL,
+"name" varchar(50) COLLATE "default" NOT NULL,
+"department" varchar(50) COLLATE "default" NOT NULL,
+CONSTRAINT "emps_pkey" PRIMARY KEY ("id")
+)
+WITH (OIDS=FALSE)
+;
+
+ALTER TABLE "public"."emps" OWNER TO "postgres";
+
+
+CREATE TABLE "public"."products" (
+"id" int4 DEFAULT nextval('products_id'::regclass) NOT NULL,
+"productname" varchar(255) COLLATE "default",
+CONSTRAINT "products_pkey" PRIMARY KEY ("id")
+)
+WITH (OIDS=FALSE)
+;
+
+ALTER TABLE "public"."products" OWNER TO "postgres";
+
+CREATE TABLE "public"."sals" (
+"id" int4 DEFAULT nextval('sals_id_seq'::regclass) NOT NULL,
+"salary" numeric(10,2),
+"emp_id" int4,
+CONSTRAINT "sals_pkey" PRIMARY KEY ("id"),
+CONSTRAINT "sals_emp_id_fkey" FOREIGN KEY ("emp_id") REFERENCES "public"."emps" ("id") ON DELETE NO ACTION ON UPDATE NO ACTION
+)
+WITH (OIDS=FALSE)
+;
+
+ALTER TABLE "public"."sals" OWNER TO "postgres";
+
+
+CREATE TABLE "public"."skisetc" (
+"id" numeric DEFAULT nextval('seq_id'::regclass) NOT NULL,
+"product" varchar(255) COLLATE "default",
+"category" varchar(255) COLLATE "default",
+"price" numeric(10,2),
+CONSTRAINT "skisEtc_pkey" PRIMARY KEY ("id")
+)
+WITH (OIDS=FALSE)
+;
+
+ALTER TABLE "public"."skisetc" OWNER TO "postgres";
