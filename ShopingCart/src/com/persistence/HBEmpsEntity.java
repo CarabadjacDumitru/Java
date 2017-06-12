@@ -20,7 +20,7 @@ public class HBEmpsEntity {
     }
 
     @Basic
-    @Column(name = "name")
+    @Column(name = "name"
     private String name;
 
     public String getName() {
