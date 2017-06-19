@@ -1,28 +1,21 @@
 package com.tocsyk.shoppingcart.dao;
 
 
-import java.util.Date;
-import java.util.List;
-import java.util.UUID;
-
+import com.tocsyk.shoppingcart.entity.Order;
+import com.tocsyk.shoppingcart.entity.OrderDetail;
+import com.tocsyk.shoppingcart.entity.Product;
+import com.tocsyk.shoppingcart.model.*;
 import org.hibernate.Criteria;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.criterion.Restrictions;
-import com.tocsyk.shoppingcart.dao.OrderDAO;
-import com.tocsyk.shoppingcart.dao.ProductDAO;
-import com.tocsyk.shoppingcart.entity.Order;
-import com.tocsyk.shoppingcart.entity.OrderDetail;
-import com.tocsyk.shoppingcart.entity.Product;
-import com.tocsyk.shoppingcart.model.CartInfo;
-import com.tocsyk.shoppingcart.model.CartLineInfo;
-import com.tocsyk.shoppingcart.model.CustomerInfo;
-import com.tocsyk.shoppingcart.model.OrderDetailInfo;
-import com.tocsyk.shoppingcart.model.OrderInfo;
-import com.tocsyk.shoppingcart.model.PaginationResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
+
+import java.util.Date;
+import java.util.List;
+import java.util.UUID;
 
 //Transactional for Hibernate
 @Transactional

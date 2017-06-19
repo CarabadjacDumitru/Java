@@ -1,12 +1,11 @@
 package com.tocsyk.shoppingcart.dao;
 
 
+import com.tocsyk.shoppingcart.entity.Account;
 import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.criterion.Restrictions;
-import com.tocsyk.shoppingcart.dao.AccountDAO;
-import com.tocsyk.shoppingcart.entity.Account;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 

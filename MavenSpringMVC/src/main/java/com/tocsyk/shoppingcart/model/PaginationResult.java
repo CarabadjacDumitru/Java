@@ -1,12 +1,12 @@
 package com.tocsyk.shoppingcart.model;
 
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.hibernate.Query;
 import org.hibernate.ScrollMode;
 import org.hibernate.ScrollableResults;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class PaginationResult<E> {
 

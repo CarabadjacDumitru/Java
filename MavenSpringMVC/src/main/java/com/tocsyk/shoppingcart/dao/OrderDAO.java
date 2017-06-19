@@ -1,13 +1,13 @@
 package com.tocsyk.shoppingcart.dao;
 
 
-import java.util.List;
-
 import com.tocsyk.shoppingcart.model.CartInfo;
 import com.tocsyk.shoppingcart.model.OrderDetailInfo;
 import com.tocsyk.shoppingcart.model.OrderInfo;
 import com.tocsyk.shoppingcart.model.PaginationResult;
 import org.springframework.stereotype.Repository;
+
+import java.util.List;
 
 @Repository
 public interface OrderDAO {

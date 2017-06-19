@@ -1,9 +1,9 @@
 package com.tocsyk.shoppingcart.util;
 
 
-import javax.servlet.http.HttpServletRequest;
-
 import com.tocsyk.shoppingcart.model.CartInfo;
+
+import javax.servlet.http.HttpServletRequest;
 
 public class Utils {
 

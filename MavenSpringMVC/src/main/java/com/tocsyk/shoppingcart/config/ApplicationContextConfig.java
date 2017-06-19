@@ -1,17 +1,8 @@
 package com.tocsyk.shoppingcart.config;
 
 
-import java.util.Properties;
-
-import javax.sql.DataSource;
-
+import com.tocsyk.shoppingcart.dao.*;
 import org.hibernate.SessionFactory;
-import com.tocsyk.shoppingcart.dao.AccountDAO;
-import com.tocsyk.shoppingcart.dao.OrderDAO;
-import com.tocsyk.shoppingcart.dao.ProductDAO;
-import com.tocsyk.shoppingcart.dao.AccountDAOImpl;
-import com.tocsyk.shoppingcart.dao.OrderDAOImpl;
-import com.tocsyk.shoppingcart.dao.ProductDAOImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -25,6 +16,9 @@ import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
+
+import javax.sql.DataSource;
+import java.util.Properties;
 
 @Configuration
 @ComponentScan("com.tocsyk.shoppingcart.*")
