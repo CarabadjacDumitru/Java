@@ -9,7 +9,7 @@
         <module name="FirstLessonSpringMVC" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
       <module name="FirstLessonSpringMVC" target="1.5" />
     </bytecodeTargetLevel>
   </component>
