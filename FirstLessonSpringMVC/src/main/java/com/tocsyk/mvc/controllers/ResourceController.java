@@ -63,7 +63,7 @@ public class ResourceController {
 	
 	@ModelAttribute("radioOptions")
 	public List<String> getRadios(){
-		return new LinkedList<>(Arrays.asList(new String[]{
+		return new LinkedList<?>(Arrays.asList(new String[]{
 				"Hours", "Piece", "Tons"	
 			}));
 	}

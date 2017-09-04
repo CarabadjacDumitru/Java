@@ -19,11 +19,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+            <state relative-caret-position="187">
+              <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -42,45 +42,45 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="159" column="18" lean-forward="false" selection-start-line="159" selection-start-column="18" selection-end-line="159" selection-end-column="18" />
+            <state relative-caret-position="2006">
+              <caret line="118" column="18" lean-forward="false" selection-start-line="118" selection-start-column="18" selection-end-line="118" selection-end-column="18" />
               <folding>
-                <marker date="1498653595049" expanded="true" signature="74354:74371" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="74354:74389" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="74354:74402" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="74354:74417" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="74452:76847" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="74465:76832" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="74519:74921" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="74538:74906" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="74663:74886" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="74703:74852" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="74724:74830" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="74971:75310" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="74990:75295" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="75091:75275" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="75131:75241" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="75152:75219" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="75361:75632" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="75380:75617" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="75413:75597" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="75453:75563" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="75474:75541" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="75675:75987" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="75694:75972" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="75768:75952" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="75808:75918" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="75829:75896" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="76038:76406" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="76057:76391" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="76148:76371" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="76188:76337" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="76209:76315" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="76458:76818" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="76477:76803" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="76599:76783" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="76639:76749" ph="..." />
-                <marker date="1498653595049" expanded="true" signature="76660:76727" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="79153:79298" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="79153:79316" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="79153:79329" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="79153:79344" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="79379:81774" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="79392:81759" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="79446:79848" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="79465:79833" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="79590:79813" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="79630:79779" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="79651:79757" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="79898:80237" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="79917:80222" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="80018:80202" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="80058:80168" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="80079:80146" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="80288:80559" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="80307:80544" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="80340:80524" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="80380:80490" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="80401:80468" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="80602:80914" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="80621:80899" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="80695:80879" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="80735:80845" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="80756:80823" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="80965:81333" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="80984:81318" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="81075:81298" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="81115:81264" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="81136:81242" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="81385:81745" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="81404:81730" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="81526:81710" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="81566:81676" ph="..." />
+                <marker date="1501214192470" expanded="true" signature="81587:81654" ph="..." />
               </folding>
             </state>
           </provider>
@@ -91,16 +91,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -119,8 +109,38 @@
       <file leaf-file-name="dispatcher-servlet.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/dispatcher-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+            <state relative-caret-position="238">
+              <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragments/header.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="51" lean-forward="false" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResourceController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tocsyk/mvc/controllers/ResourceController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="56" column="4" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -132,20 +152,6 @@
             <state relative-caret-position="136">
               <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProjectService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tocsyk/mvc/data/services/ProjectService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="40" column="37" lean-forward="false" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#995#996#0" expanded="false" />
-                <element signature="e#1024#1025#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -193,6 +199,10 @@
       <dir>G:\IntelliJJava\Java\</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -222,13 +232,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/tocsyk/mvc/controllers/ProjectController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tocsyk/mvc/controllers/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tocsyk/mvc/data/validators/ProjectValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tocsyk/mvc/controllers/ResourceController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/resource.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tocsyk/mvc/controllers/ResourceController.java" />
       </list>
     </option>
   </component>
@@ -270,10 +280,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1288" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="1040" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -294,6 +304,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -309,7 +320,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -319,24 +329,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="FirstLessonSpringMVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FirstLessonSpringMVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FirstLessonSpringMVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -387,6 +379,100 @@
               <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FirstLessonSpringMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FirstLessonSpringMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fragments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FirstLessonSpringMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FirstLessonSpringMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FirstLessonSpringMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FirstLessonSpringMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -408,12 +494,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../tocsyk" />
@@ -938,11 +1025,19 @@
       <workItem from="1498641518904" duration="416000" />
       <workItem from="1498651633304" duration="206000" />
       <workItem from="1498652167599" duration="1427000" />
+      <workItem from="1498843703982" duration="585000" />
+      <workItem from="1499109860651" duration="3275000" />
+      <workItem from="1499582091346" duration="171000" />
+      <workItem from="1499966801717" duration="1586000" />
+      <workItem from="1499970560446" duration="5314000" />
+      <workItem from="1500333879668" duration="1588000" />
+      <workItem from="1500398773735" duration="9746000" />
+      <workItem from="1501214087834" duration="147000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20659000" />
+    <option name="totallyTimeSpent" value="43071000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -954,12 +1049,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1288" y="-8" width="1296" height="1040" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23294243" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -971,16 +1066,15 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37885463" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.506705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3398058" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21709532" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -988,6 +1082,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.51380366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1115,20 +1210,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragments/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tocsyk/mvc/data/entities/Sponsor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1185,13 +1266,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tocsyk/mvc/controllers/ResourceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="74" column="16" lean-forward="true" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tocsyk/mvc/controllers/ProjectController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-204">
@@ -1210,11 +1284,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="40" column="37" lean-forward="false" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#995#996#0" expanded="false" />
-            <element signature="e#1024#1025#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1222,6 +1292,81 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-515">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstLessonSpringMVC.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2006">
+          <caret line="118" column="18" lean-forward="false" selection-start-line="118" selection-start-column="18" selection-end-line="118" selection-end-column="18" />
+          <folding>
+            <marker date="1501214192470" expanded="true" signature="79153:79298" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="79153:79316" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="79153:79329" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="79153:79344" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="79379:81774" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="79392:81759" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="79446:79848" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="79465:79833" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="79590:79813" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="79630:79779" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="79651:79757" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="79898:80237" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="79917:80222" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="80018:80202" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="80058:80168" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="80079:80146" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="80288:80559" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="80307:80544" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="80340:80524" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="80380:80490" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="80401:80468" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="80602:80914" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="80621:80899" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="80695:80879" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="80735:80845" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="80756:80823" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="80965:81333" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="80984:81318" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="81075:81298" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="81115:81264" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="81136:81242" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="81385:81745" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="81404:81730" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="81526:81710" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="81566:81676" ph="..." />
+            <marker date="1501214192470" expanded="true" signature="81587:81654" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1236,8 +1381,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        <state relative-caret-position="238">
+          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragments/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="51" lean-forward="false" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -1250,78 +1411,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FirstLessonSpringMVC.iml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tocsyk/mvc/controllers/ResourceController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-515">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="159" column="18" lean-forward="false" selection-start-line="159" selection-start-column="18" selection-end-line="159" selection-end-column="18" />
-          <folding>
-            <marker date="1498653595049" expanded="true" signature="74354:74371" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="74354:74389" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="74354:74402" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="74354:74417" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="74452:76847" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="74465:76832" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="74519:74921" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="74538:74906" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="74663:74886" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="74703:74852" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="74724:74830" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="74971:75310" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="74990:75295" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="75091:75275" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="75131:75241" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="75152:75219" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="75361:75632" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="75380:75617" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="75413:75597" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="75453:75563" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="75474:75541" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="75675:75987" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="75694:75972" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="75768:75952" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="75808:75918" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="75829:75896" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="76038:76406" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="76057:76391" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="76148:76371" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="76188:76337" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="76209:76315" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="76458:76818" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="76477:76803" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="76599:76783" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="76639:76749" ph="..." />
-            <marker date="1498653595049" expanded="true" signature="76660:76727" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="137">
+          <caret line="56" column="4" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
           <folding />
         </state>
       </provider>
